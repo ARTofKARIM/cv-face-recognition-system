@@ -1,0 +1,11 @@
+model:
+  embedding_dim: 128
+  input_size: [160, 160]
+  architecture: "facenet"
+detection:
+  method: "haar"
+  min_face_size: 30
+  confidence: 0.7
+recognition:
+  threshold: 0.6
+  metric: "cosine"
